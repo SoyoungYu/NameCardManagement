@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "567045972658",
+    "project_id": "namecardmoa",
+    "storage_bucket": "namecardmoa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:567045972658:android:3843249622f271417b5fab",
+        "android_client_info": {
+          "package_name": "com.example.namecardmoa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "567045972658-69k158htefhqvr5gils122ig9errh08n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.namecardmoa",
+            "certificate_hash": "5001d354da6e89bce92f4ae2a3ed861fba68e8b6"
+          }
+        },
+        {
+          "client_id": "567045972658-50md73rkinmdh87f1897jtem6ksk460v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBvoJSq8W7a1JuAx3ygZdOYR3v4lmL1hFs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "567045972658-50md73rkinmdh87f1897jtem6ksk460v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

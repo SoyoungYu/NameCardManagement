@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center_vertical|center_horizontal">
+
+        <TextView
+            android:id="@+id/title1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="명함 관리도 스마트하게"
+            android:textColor="#000"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:layout_margin="10dp"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/title2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="그동안 명함 들고다니시느라 불편하셨죠?"
+            android:textColor="#000"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/title3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="MoA가 해결해드릴게요!"
+            android:textColor="#000"
+            android:textSize="14dp"
+            android:gravity="center"/>
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/login_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/kakao_login_medium_wide"
+        android:layout_gravity="center"
+        android:layout_marginBottom="50dp"/>
+
+</LinearLayout>
